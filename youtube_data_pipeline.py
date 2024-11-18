@@ -44,7 +44,6 @@ def main():
 
         s3 = boto3.client('s3')
     
-
         logger.info('================================== starting json file upload ==================================')
         
         for filename in json_files:
