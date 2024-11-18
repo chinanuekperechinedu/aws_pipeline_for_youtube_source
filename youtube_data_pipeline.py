@@ -15,9 +15,9 @@ load_dotenv()
 
 
 # Download latest version
-# path = kagglehub.dataset_download("datasnaek/youtube-new")
+path = kagglehub.dataset_download("datasnaek/youtube-new")
 
-# print("Path to dataset files:", path)
+print("Path to dataset files:", path)
 
 BUCKET_NAME = os.getenv('BUCKET_NAME')
 FOLDER_NAME_JSON = os.getenv('FOLDER_NAME_JSON')
